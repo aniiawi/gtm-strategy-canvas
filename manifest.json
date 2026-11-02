@@ -1,0 +1,18 @@
+{
+  "name": "gtm-strategy-architect",
+  "version": "0.1.0",
+  "description": "An evidence-led agent skill for developing and reviewing go-to-market strategies with an adaptive 12-block GTM Canvas.",
+  "author": "aniiawi",
+  "license": "MIT",
+  "entrypoint": "SKILL.md",
+  "language": "en",
+  "tags": [
+    "product-marketing",
+    "go-to-market",
+    "strategy",
+    "positioning",
+    "monetization",
+    "product-management",
+    "agent-skill"
+  ]
+}
