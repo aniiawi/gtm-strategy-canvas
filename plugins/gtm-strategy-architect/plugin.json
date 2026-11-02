@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gtm-strategy-architect",
+  "version": "0.1.0",
+  "description": "An evidence-led GTM strategy workflow with an adaptive 12-block Canvas, decision records, research discipline, consistency checks, and editable PowerPoint output guidance.",
+  "author": {
+    "name": "aniiawi"
+  },
+  "repository": "https://github.com/aniiawi/gtm-strategy-canvas",
+  "license": "MIT",
+  "keywords": [
+    "go-to-market",
+    "product-marketing",
+    "strategy",
+    "positioning",
+    "monetization",
+    "product-management",
+    "agent-skill"
+  ]
+}
