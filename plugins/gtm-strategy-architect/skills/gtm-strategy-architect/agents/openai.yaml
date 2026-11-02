@@ -1,0 +1,6 @@
+interface:
+  display_name: "GTM Strategy Canvas"
+  short_description: "Evidence-led GTM strategy"
+  default_prompt: "Use the GTM Strategy Canvas skill to help me make evidence-backed go-to-market decisions. Diagnose my context, then guide me through the most consequential decisions."
+policy:
+  allow_implicit_invocation: true
