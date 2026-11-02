@@ -1,0 +1,7 @@
+interface:
+  display_name: "GTM Strategy Architect"
+  short_description: "Build evidence-backed go-to-market strategies"
+  brand_color: "#147D78"
+  default_prompt: "Use GTM Strategy Architect to help me make evidence-backed go-to-market decisions. Diagnose my context first, then guide me through the most consequential decisions."
+policy:
+  allow_implicit_invocation: true
