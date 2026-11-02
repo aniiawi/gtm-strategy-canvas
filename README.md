@@ -1,4 +1,4 @@
-# GTM Strategy Architect
+# GTM Strategy Canvas
 
 An evidence-led agent skill for developing, reviewing, and improving go-to-market strategies. It uses a 12-block GTM Canvas as a strategic workspace, not as a form to fill in.
 
@@ -75,7 +75,7 @@ Alternatively, clone this repository and open it as your project in Codex. Codex
 Invoke it explicitly with:
 
 ```text
-$gtm-strategy-architect Help me develop a GTM strategy for [product] in [market].
+$gtm-strategy-canvas Help me develop a GTM strategy for [product] in [market].
 ```
 
 ### ChatGPT
@@ -86,7 +86,7 @@ To install it in a workspace where plugin ZIP upload is enabled:
 
 1. Download or package the contents of `plugins/gtm-strategy-architect/` as a ZIP. The ZIP root must contain `plugin.json` and the `skills/` directory.
 2. In ChatGPT, open **Plugins** in the sidebar. If you have workspace upload permissions, go to **Admin console → Plugins → Add → Upload plugin** and upload the ZIP.
-3. Install the plugin, then invoke it with `@GTM Strategy Architect` or select it from the composer.
+3. Install the plugin, then invoke it with `@GTM Strategy Canvas` or select it from the composer.
 
 Plugin upload and sharing depend on workspace permissions and plan. A public GitHub repository alone does not automatically install a plugin into ChatGPT. See the [OpenAI plugin documentation](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt).
 
