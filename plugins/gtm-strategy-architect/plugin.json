@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "gtm-strategy-architect",
+  "name": "gtm-strategy-canvas",
   "version": "0.1.0",
-  "description": "An evidence-led GTM strategy workflow with an adaptive 12-block Canvas, decision records, research discipline, consistency checks, and editable PowerPoint output guidance.",
+  "description": "Evidence-led GTM strategy work using the repository's adaptive 12-block Canvas, decision logic, evidence assessment, Strategic Decision Records, consistency checks, and readiness levels.",
   "author": {
     "name": "aniiawi"
   },
@@ -16,5 +16,20 @@
     "monetization",
     "product-management",
     "agent-skill"
-  ]
+  ],
+  "extensions": {
+    "com": {
+      "openai": {
+        "interface": {
+          "displayName": "GTM Strategy Canvas",
+          "shortDescription": "Evidence-led GTM strategy",
+          "longDescription": "An adaptive GTM strategy skill for product marketers, product leaders, and founders. Uses the repository's canonical 12-block Canvas, decision logic, evidence statuses, Strategic Decision Records, cross-Canvas consistency checks, readiness levels, research protocol, QA rules, and editable PowerPoint output specification. This is an instruction-only skill: it does not include connected data sources, external research APIs, or an automatic PowerPoint-generation tool.",
+          "developerName": "aniiawi",
+          "category": "Business & Operations",
+          "capabilities": [],
+          "defaultPrompt": "@GTM Strategy Canvas Help me develop an evidence-backed GTM strategy for my product."
+        }
+      }
+    }
+  }
 }
