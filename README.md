@@ -55,9 +55,44 @@ The block names and order are canonical. See [Canvas Methodology](methodology/ca
     └── output-quality-tests.md
 ```
 
-## Quick start
+## Install and use
 
-Install or expose this skill in an agent environment that supports the Agent Skills format. Start with:
+### Codex
+
+The repository includes a Codex-discoverable skill at `.agents/skills/gtm-strategy-architect/`.
+
+From Codex, install it from this repository with the built-in installer:
+
+```text
+$skill-installer
+```
+
+Then ask the installer to install the skill from:
+`https://github.com/aniiawi/gtm-strategy-canvas/tree/main/.agents/skills/gtm-strategy-architect`
+
+Alternatively, clone this repository and open it as your project in Codex. Codex discovers repository skills under `.agents/skills/`. If a newly added skill does not appear, restart Codex.
+
+Invoke it explicitly with:
+
+```text
+$gtm-strategy-architect Help me develop a GTM strategy for [product] in [market].
+```
+
+### ChatGPT
+
+For ChatGPT, use the portable plugin package in `plugins/gtm-strategy-architect/`. It contains a `plugin.json` manifest and the bundled skill.
+
+To install it in a workspace where plugin ZIP upload is enabled:
+
+1. Download or package the contents of `plugins/gtm-strategy-architect/` as a ZIP. The ZIP root must contain `plugin.json` and the `skills/` directory.
+2. In ChatGPT, open **Plugins** in the sidebar. If you have workspace upload permissions, go to **Admin console → Plugins → Add → Upload plugin** and upload the ZIP.
+3. Install the plugin, then invoke it with `@GTM Strategy Architect` or select it from the composer.
+
+Plugin upload and sharing depend on workspace permissions and plan. A public GitHub repository alone does not automatically install a plugin into ChatGPT. See the [OpenAI plugin documentation](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt).
+
+### Prompt to start
+
+
 
 > Help me develop a GTM strategy for [product] in [market]. First diagnose what we already know, then guide me through the decisions that matter.
 
@@ -68,6 +103,13 @@ You can also request a focused workflow:
 - Evaluate pricing and packaging options.
 - Diagnose a conversion or activation problem.
 - Stress-test GTM assumptions and economics.
+
+## Repository skill locations
+
+- Codex / standalone Agent Skill: `.agents/skills/gtm-strategy-architect/`
+- Portable ChatGPT plugin package: `plugins/gtm-strategy-architect/`
+
+Both packages are generated from the same canonical root `SKILL.md` and methodology documents. When changing the workflow, keep the copies synchronized.
 
 ## Operating principles
 
