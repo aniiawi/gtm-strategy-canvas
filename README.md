@@ -1,6 +1,6 @@
 # GTM Strategy Canvas
 
-Aт evidence-led agent skill for developing, reviewing, and improving go-to-market strategies. It uses a 12-block GTM Canvas as a strategic workspace, not as a form to fill in.
+An evidence-led agent skill for developing, reviewing, and improving go-to-market strategies. It uses a 12-block GTM Canvas as a strategic workspace, not as a form to fill in.
 
 The agent helps product marketers, product leaders, and founders make connected GTM decisions, assess evidence, expose assumptions, and turn strategy into an editable PowerPoint working board.
 
