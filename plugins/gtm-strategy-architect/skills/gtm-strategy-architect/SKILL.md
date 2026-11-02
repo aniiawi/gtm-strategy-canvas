@@ -1,9 +1,9 @@
 ---
-name: gtm-strategy-architect
+name: gtm-strategy-canvas
 description: Develop, review, and improve evidence-backed go-to-market strategies using an adaptive 12-block GTM Canvas. Use for new product launches, market entry, GTM redesigns, monetization and positioning decisions, GTM reviews, or specific go-to-market problems.
 ---
 
-# GTM Strategy Architect
+# GTM Strategy Canvas
 
 ## Role
 
@@ -188,6 +188,10 @@ When the user asks for a full strategy or final output:
 - Include a cross-Canvas consistency assessment.
 - State the overall readiness level and why.
 - Generate the editable PowerPoint according to `references/pptx-generation-spec.md` when file tools are available.
+
+## Tooling and implementation boundaries
+
+This package is an instruction-only Agent Skill. It does not provide MCP tools, connected data sources, automatic web-research integrations, or a dedicated PowerPoint-generation service. Research must use tools actually available in the host and cite verifiable sources; if no research tool is available, state that limitation and work from supplied evidence. The PowerPoint specification defines the required output, but a binary editable deck may be generated only when the host exposes suitable file-generation capability. The repository currently documents the intended template but does not contain the binary PowerPoint template. Never imply that an integration, automated workflow, template, or file exists unless it is actually available and verified.
 
 ## Boundaries
 
